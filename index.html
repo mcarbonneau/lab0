@@ -3,20 +3,34 @@
     <head>
         <title>Madeleine's Webpage</title>
         <link rel="stylesheet" href="main.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     </head>
     <body>
-        <p id="intro"> Hello! My name is Madeleine (or Maddy). I am a senior studying Applied Math
-          and <br> Biological Sciences. In my free time, I like to sing, run, and listen to music. <br>
-          Over the summer I realized I really wanted to become better at software engineering and <br>
-          development, so CS100 is a great opportunity for me!<br>
+      <div class="jumbotron">
+          <h1 class="display-4">Hello! My name is Madeleine (or Maddy).</h1>
+          <p class="lead">Senior at Harvard College</p>
+          <hr class="my-4">
+          <p>I am a senior studying Applied Math
+            and Biological Sciences. In my free time, I like to sing, run, and listen to music.
+            Over the summer I realized I really wanted to become better at software engineering and
+            development, so CS100 is a great opportunity for me!
+        </div>
         </p>
         <br>
         <p>
-        <br> Click <a href="pg0.html"> here </a> to see my favorite foods.
-        <br>
-        <br> Click <a href="photo.html"> here </a> to see a picture of me (when my hair was longer).
-        <br>
-        <br> Click <a href="classes.html"> here </a> to see a table of the classes I'm taking.
+        <div class="container">
+          <div class="row">
+              <div class="col-sm">
+                Click <a href="pg0.html"> here </a> to see my favorite foods.
+          </div>
+        <div class="col-sm">
+           Click <a href="photo.html"> here </a> to see a picture of me (when my hair was longer).
+        </div>
+        <div class="col-sm">
+           Click <a href="classes.html"> here </a> to see a table of the classes I'm taking.
+        </div>
+      </div>
+    </div>
         </p>
     </body>
 </html>
